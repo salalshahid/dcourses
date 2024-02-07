@@ -1,0 +1,102 @@
+/*
+Theme Name: AdminBS5
+Theme URI: https://github.com/nhsaks/adminbs5
+Author: nhsaks
+Author URI: https://github.com/nhsaks
+Description: AdminBS5 is an admin control panel build with HTML and Bootstrap
+5.2.2 Version CSS framework.
+License: MIT License
+License URI: https://github.com/nhsaks/adminbs5/blob/main/LICENSE
+*/
+
+
+/*  color */
+
+.ccolor {
+ background-color: #5d44f8;
+}
+
+.asidebar{
+  background-color: #4731d3;
+  border-radius: 7px;
+}
+
+
+.cbody{
+  background: linear-gradient(90deg, rgba(245,246,251,1) 0%, rgba(235,231,248,1) 100%);
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+td, tr,p,a,span{
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+a{
+  color: #000;
+}
+@media (min-width: 768px) {
+.collapse.dont-collapse-sm {
+  display: block;
+  height: auto !important;
+  visibility: visible;
+}
+
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.dropdown:hover .dropdown-menu {
+z-index: 9999;
+}
+
+.myside li:hover{
+  background-color: #4731d3;
+  border-radius: 7px;
+}
+body{
+  overflow-x: hidden;
+}
+.form-check-input:checked{
+  background-color: #5d44f8 !important;
+  border : 0;
+}
+.form-check-input:focus, .label::after, label.form-check-label:focus,
+.form-check-input::after, .form-check-input:not(:disabled):not(.disabled):active:focus {
+   color: #343a40;
+   outline: 0;
+   border: 0;
+   box-shadow: 0 0 0 0.1rem #343a40 !important;
+}
+select option:checked {
+  background-color: #dddddd;
+}
+option:hover{
+    background-color: #dddddd;
+}
